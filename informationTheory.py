@@ -14,3 +14,4 @@ shinf = math.log2(1/p)
 eProb = 2**entropy
 
 print(entropy, shinf, eProb)
+larala
