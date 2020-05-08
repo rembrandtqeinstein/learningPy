@@ -1,4 +1,4 @@
-grade = input("Tell the grade on a scale from 0.0 to 1.0: ")
+grade = input("Tell the grade (scale from 0.0 to 1.0): ")
 
 try:
     grade = float(grade)
