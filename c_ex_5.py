@@ -9,12 +9,13 @@ while numb != 'done':
     if numb == 'done':
         break
     try:
-        numb = int(numb)
+        numb = float(numb)
     except:
         print('bad data')
-    if type(numb) == int:
-        suma = suma + numb
-        count+=1
+        continue # to skip a loop, simpler than the type checking
+    #if type(numb) == int:
+    suma = suma + numb
+    count+=1
 
 print(suma, count, (suma/count))
 
@@ -29,18 +30,19 @@ while numb2 != 'done':
     if numb2 == 'done':
         break
     try:
-        numb2 = int(numb2)
+        numb2 = float(numb2)
     except:
         print('bad data')
-    if type(numb2) == int:
-        if small is None:
-            small = numb2
-        if big is None:
-            big = numb2
-        elif numb2 < small:
-            small = numb2
-        elif numb2 > big:
-            big = numb2
+        continue # to skip a loop, simpler than the type checking
+    #if type(numb2) == int:
+    if small is None:
+        small = numb2
+    if big is None:
+        big = numb2
+    elif numb2 < small:
+        small = numb2
+    elif numb2 > big:
+        big = numb2
 
 print(big, small)
 
