@@ -5,6 +5,9 @@ suma = 0
 count = 0
 while numb != 'done':
     numb = input('Enter a number: ')
+    # This IF Statement could be removed from the code, just to save a loop is placed here
+    if numb == 'done':
+        break
     try:
         numb = int(numb)
     except:
