@@ -20,6 +20,30 @@ print(suma, count, (suma/count))
 
 # Exercise 2: Write another program that prompts for a list of numbers as above and at the end prints out both the maximum and minimum of the numbers instead of the average.
 
+small = None
+big = None
+numb2 = 0
+while numb2 != 'done':
+    numb2 = input('Enter a number: ')
+    # This IF Statement could be removed from the code, just to save a loop is placed here
+    if numb2 == 'done':
+        break
+    try:
+        numb2 = int(numb2)
+    except:
+        print('bad data')
+    if type(numb2) == int:
+        if small is None:
+            small = numb2
+        if big is None:
+            big = numb2
+        elif numb2 < small:
+            small = numb2
+        elif numb2 > big:
+            big = numb2
+
+print(big, small)
+
 # Finding the Smallest Number
 smallest = None # Start with a None which helps not to initialize with a random number, the feeded list can be bigger
 for i in [9,41,15,3,74,7]:
