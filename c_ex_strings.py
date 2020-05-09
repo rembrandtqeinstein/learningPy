@@ -11,3 +11,7 @@ print(numb2, type(numb2))
 print(str.replace('e','a'))
 print(str.strip('X5-'))
 #str.strip('X-')
+
+
+
+
