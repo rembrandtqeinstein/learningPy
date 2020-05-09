@@ -19,3 +19,11 @@ while numb != 'done':
 print(suma, count, (suma/count))
 
 # Exercise 2: Write another program that prompts for a list of numbers as above and at the end prints out both the maximum and minimum of the numbers instead of the average.
+
+# Finding the Smallest Number
+smallest = None # Start with a None which helps not to initialize with a random number, the feeded list can be bigger
+for i in [9,41,15,3,74,7]:
+    if smallest is None:
+        smallest = i
+    elif i < smallest:
+        smallest = i
