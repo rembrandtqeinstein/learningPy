@@ -6,6 +6,7 @@ pos2 = str.find('0')
 numb2 = float(str[pos2:])
 print(numb, type(numb))
 print(numb2, type(numb2))
+# Could I make a for loop to find a numeric character with isnumeric method and then save as long as that is true? it would break with the . on float but stillS
 
 # String documentation https://docs.python.org/3.5/library/stdtypes.html#string-methods
 print(str.replace('e','a'))
@@ -56,3 +57,21 @@ print(str2.isspace()) # Return true if there are only whitespace characters in t
 print(str.istitle())
 
 print(str.join(str2)) # The join() method is a string method and returns a string in which the elements of sequence have been joined by str separator.S
+
+print(dir(str)) # Shows all functions that can work with STRS
+
+str3 = '      Bye Bye Birdie    '
+print(str3.lstrip())
+print(str3.rstrip())
+print(str3.strip())
+print(str.startswith('a'))
+print(str.startswith('0'))
+
+# Extract Domain
+data = 'From somemail@somedomain.com at 12.30 FRiday'
+sPos = data.find('@')
+ePos = data.find(' ',sPos)
+domain = data[sPos+1:ePos]
+print(domain)
+
+# Extract full email -> https://stackoverflow.com/questions/17681670/extract-email-sub-strings-from-large-document
