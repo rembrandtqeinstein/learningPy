@@ -3,7 +3,7 @@ handler = open('mbox-short.txt')
 print(handler)
 
 # This line reads all the lines, included special characters like escape characters as one single string line
-fread = handler.read()
+# fread = handler.read()
 
 # Creates a For Loop that goes line by line of the file
 for line in handler:
