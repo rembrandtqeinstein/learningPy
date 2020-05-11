@@ -3,8 +3,12 @@ fname = input('Enter file name and extension: ')
 try:
     fhand = open(fname)
 except:
-    print('Bad file or Bad file Name')
-    quit()
+    if fname == 'na na boo boo':
+        print('NA NA BOO TO YOU - You have been punk\'d!')
+        quit()
+    else:
+        print('Bad file or Bad file Name, there is no', fname)
+        quit()
 
 sum = 0
 count = 0
