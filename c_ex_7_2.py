@@ -24,4 +24,4 @@ for line in fhand:
         #print(line)
         #print(sum, count)
 
-print(sum, count, sum/count)
+print('Sum of Spam Score:', sum, 'Count of Spam Scores:', count, 'Average Spam Score:', sum/count)
