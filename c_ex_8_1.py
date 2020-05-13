@@ -4,6 +4,7 @@ try:
     fhandler = open(fname)
 except:
     print("Bad file name, please input valid, like romeo.txt")
+    quit()
 
 words = list()
 
