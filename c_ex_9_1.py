@@ -9,6 +9,7 @@ except:
 hist = dict()
 
 for line in fhandler:
+    # This conditional checks for Commits, not for Sender (From:) this is From SPACE
     if not line.startswith('From '):
         continue
     words = line.split()
