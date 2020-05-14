@@ -9,6 +9,7 @@ except:
 hist = dict()
 
 for line in fhandler:
+    # This line works for the Sender FROM: looks at sender of the email
     if not line.startswith('From:'):
         continue
     words = line.split()
