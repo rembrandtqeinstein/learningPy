@@ -26,3 +26,8 @@ lis = sorted(lis, reverse=True) # This sorts the new list with tuples based on t
 
 for v,k in lis[:10]: # This loops the list up to the 10th position 0 to 9
     print(k,v) # This prints the Key first and the value after
+
+# We can do the same as the last two for loops with LIST COMPREHENSION as follows
+ord = sorted([(v,k) for k,v in hist.items()], reverse=True)
+# The [ ] Part creates a new tuple, the first part (v,k) from the loop that follows that iterates through the whole dictionary as the for loop that enters each key and value. Then we apply the sort directly to the resulting tupple, with reversed order and that gives us a list of Values and Keys
+print(ord)
