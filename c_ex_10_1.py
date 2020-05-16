@@ -17,13 +17,18 @@ for line in fhandler:
 
 #print(hist)
 
-lis = list()
-for k,v in hist.items():
-    tup = (v,k)
-    lis.append(tup)
+# This Part can be done with just one Line ORD Line
+#lis = list()
+#for k,v in hist.items():
+#    tup = (v,k)
+#    lis.append(tup)
 
-lis = sorted(lis, reverse=True)
+#lis = sorted(lis, reverse=True)
 #print(lis[0])
 
-bcou, bnam = lis[0]
+# Sort and order the Histogram as would be done with a for loop
+ord = sorted([(v,k) for k,v in hist.items()], reverse=True)
+#print(ord)
+
+bcou, bnam = ord[0]
 print(bnam,bcou)
