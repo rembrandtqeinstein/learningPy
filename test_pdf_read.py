@@ -1,6 +1,6 @@
 import pdfplumber
 
-# Routing the comptuer to a PDF
+# Routing the comptuer to a PDF. The PDF Name needs to be without spaces
 url = 'C:/Users/Hernan Herrera Hall/Desktop/Libros/Theory of Information/no_me_hagas_pensar_steve _krug_2da ed(Usabilidad).pdf'
 pdf = pdfplumber.open(url)
 
