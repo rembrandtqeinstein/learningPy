@@ -1,5 +1,11 @@
 import pdfplumber
-pdf = pdfplumber.open('pythonlearn.pdf')
+
+# Routing the comptuer to a PDF
+url = 'C:/Users/Hernan Herrera Hall/Desktop/Libros/Theory of Information/no_me_hagas_pensar_steve _krug_2da ed(Usabilidad).pdf'
+pdf = pdfplumber.open(url)
+
+#pdf = pdfplumber.open('pythonlearn.pdf')
+
 #page = pdf.pages[3]
 #text = page.extract_text()
 
