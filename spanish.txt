@@ -111,3 +111,681 @@ pantalla, teclado, mouse, micrófono, altavoz, panel táctil, etc.
 Son todas las formas en que interactuamos con la computadora.
 
 En estos días, la mayoría de c
+¿Por qué deberías aprender a escribir programas?
+
+Escribir programas (o programación) es muy creativo
+y actividad gratificante. Puedes escribir programas para
+muchas razones, desde ganarse la vida hasta resolver
+un problema difícil de análisis de datos para divertirse ayudando
+Alguien más resuelve un problema. Este libro asume que
+todo el mundo necesita saber programar, y eso una vez
+sabes programar, descubrirás lo que quieres
+que ver con tus nuevas habilidades.
+
+Estamos rodeados en nuestra vida diaria con computadoras que van
+desde computadoras portátiles hasta teléfonos celulares. Podemos pensar en estas computadoras
+como nuestros asistentes personales que pueden encargarse de muchas cosas
+en nuestro nombre. El hardware en nuestras computadoras actuales
+está esencialmente construido para hacernos continuamente la pregunta,
+¿Qué te gustaría que hiciera después?
+
+Los programadores agregan un sistema operativo y un conjunto de aplicaciones
+al hardware y terminamos con un Digital Personal
+Asistente que es bastante útil y capaz de ayudar
+nosotros hacemos muchas cosas diferentes.
+
+Nuestras computadoras son rápidas y tienen grandes cantidades de memoria y
+podría ser muy útil para nosotros si solo supiéramos el idioma para
+hablar para explicarle a la computadora lo que nos gustaría
+has el siguiente. Si supiéramos este idioma, podríamos decirle al
+computadora para hacer tareas en nuestro nombre que fueron repetitivas.
+Curiosamente, el tipo de cosas que las computadoras pueden hacer mejor
+son a menudo el tipo de cosas que los humanos encontramos aburridos
+y aturdidor mental.
+
+Por ejemplo, mire los primeros tres párrafos de este
+capítulo y dime la palabra más utilizada y cómo
+muchas veces se usa la palabra. Mientras pudiste leer
+y entiendo las palabras en unos segundos, contándolas
+es casi doloroso porque no es el tipo de problema
+que las mentes humanas están diseñadas para resolver. Para una computadora
+lo contrario es cierto, leer y comprender textos
+de una hoja de papel es difícil para una computadora hacer
+pero contando las palabras y diciéndote cuántas veces
+la palabra más utilizada fue muy fácil para el
+computadora:
+
+Nuestro asistente de análisis de información personal rápidamente
+nos dijo que la palabra to se usó dieciséis veces en el
+primeros tres párrafos de este capítulo.
+
+Este hecho de que las computadoras son buenas para las cosas
+que los humanos no son, es por eso que necesitas convertirte
+hábil para hablar lenguaje informático. Una vez que aprendas
+este nuevo lenguaje, puede delegar tareas mundanas
+a su pareja (la computadora), dejando más tiempo
+para que hagas el
+cosas para las que eres especialmente apto. Usted trae
+creatividad, intuición e inventiva para esto
+camaradería.
+
+Creatividad y motivación.
+
+Si bien este libro no está destinado a programadores profesionales, los profesionales
+La programación puede ser un trabajo muy gratificante tanto financiera como personalmente.
+Desarrollar programas útiles, elegantes e inteligentes para que otros los usen es muy
+actividad creativa. Su computadora o Asistente digital personal (PDA)
+generalmente contiene muchos programas diferentes de muchos grupos diferentes de
+programadores, cada uno compitiendo por su atención e interés. Intentan
+su mejor esfuerzo para satisfacer sus necesidades y brindarle una excelente experiencia de usuario en el
+proceso. En algunas situaciones, cuando elige una pieza de software, el
+los programadores son compensados ​​directamente por su elección.
+
+Si pensamos en los programas como la salida creativa de grupos de programadores,
+quizás la siguiente figura es una versión más sensata de nuestro PDA:
+
+Por ahora, nuestra motivación principal no es ganar dinero o complacer a los usuarios finales, sino
+en cambio para que seamos más productivos en el manejo de los datos y
+información que encontraremos en nuestras vidas.
+Cuando comiences por primera vez, serás tanto el programador como el usuario final de
+sus programas A medida que adquieres habilidad como programador y
+la programación te parece más creativa, tus pensamientos pueden cambiar
+hacia el desarrollo de programas para otros.
+
+Arquitectura de hardware de computadora
+
+Antes de comenzar a aprender el idioma,
+hablar para dar instrucciones a las computadoras para
+desarrollar software, necesitamos aprender una pequeña cantidad sobre
+cómo se construyen las computadoras.
+
+La unidad central de procesamiento (o CPU) es
+la parte de la computadora que está construida para obsesionarse
+con lo que sigue? Si su computadora está clasificada
+a tres Gigahercios, significa que la CPU preguntará ¿Qué sigue?
+tres mil millones de veces por segundo. Vas a tener que
+aprenda a hablar rápido para mantenerse al día con la CPU.
+
+La memoria principal se usa para almacenar información
+que la CPU necesita a toda prisa. La memoria principal es casi tan
+tan rápido como la CPU. Pero la información almacenada en el principal
+la memoria desaparece cuando la computadora está apagada.
+
+La memoria secundaria también se usa para almacenar
+información, pero es mucho más lenta que la memoria principal.
+La ventaja de la memoria secundaria es que puede
+almacenar información incluso cuando no hay poder para el
+computadora. Ejemplos de memoria secundaria son las unidades de disco
+o memoria flash (generalmente se encuentra en memorias USB y portátiles
+reproductores de musica).
+
+Los dispositivos de entrada y salida son simplemente nuestro
+pantalla, teclado, mouse, micrófono, altavoz, panel táctil, etc.
+Son todas las formas en que interactuamos con la computadora.
+
+En estos días, la mayoría de c
+¿Por qué deberías aprender a escribir programas?
+
+Escribir programas (o programación) es muy creativo
+y actividad gratificante. Puedes escribir programas para
+muchas razones, desde ganarse la vida hasta resolver
+un problema difícil de análisis de datos para divertirse ayudando
+Alguien más resuelve un problema. Este libro asume que
+todo el mundo necesita saber programar, y eso una vez
+sabes programar, descubrirás lo que quieres
+que ver con tus nuevas habilidades.
+
+Estamos rodeados en nuestra vida diaria con computadoras que van
+desde computadoras portátiles hasta teléfonos celulares. Podemos pensar en estas computadoras
+como nuestros asistentes personales que pueden encargarse de muchas cosas
+en nuestro nombre. El hardware en nuestras computadoras actuales
+está esencialmente construido para hacernos continuamente la pregunta,
+¿Qué te gustaría que hiciera después?
+
+Los programadores agregan un sistema operativo y un conjunto de aplicaciones
+al hardware y terminamos con un Digital Personal
+Asistente que es bastante útil y capaz de ayudar
+nosotros hacemos muchas cosas diferentes.
+
+Nuestras computadoras son rápidas y tienen grandes cantidades de memoria y
+podría ser muy útil para nosotros si solo supiéramos el idioma para
+hablar para explicarle a la computadora lo que nos gustaría
+has el siguiente. Si supiéramos este idioma, podríamos decirle al
+computadora para hacer tareas en nuestro nombre que fueron repetitivas.
+Curiosamente, el tipo de cosas que las computadoras pueden hacer mejor
+son a menudo el tipo de cosas que los humanos encontramos aburridos
+y aturdidor mental.
+
+Por ejemplo, mire los primeros tres párrafos de este
+capítulo y dime la palabra más utilizada y cómo
+muchas veces se usa la palabra. Mientras pudiste leer
+y entiendo las palabras en unos segundos, contándolas
+es casi doloroso porque no es el tipo de problema
+que las mentes humanas están diseñadas para resolver. Para una computadora
+lo contrario es cierto, leer y comprender textos
+de una hoja de papel es difícil para una computadora hacer
+pero contando las palabras y diciéndote cuántas veces
+la palabra más utilizada fue muy fácil para el
+computadora:
+
+Nuestro asistente de análisis de información personal rápidamente
+nos dijo que la palabra to se usó dieciséis veces en el
+primeros tres párrafos de este capítulo.
+
+Este hecho de que las computadoras son buenas para las cosas
+que los humanos no son, es por eso que necesitas convertirte
+hábil para hablar lenguaje informático. Una vez que aprendas
+este nuevo lenguaje, puede delegar tareas mundanas
+a su pareja (la computadora), dejando más tiempo
+para que hagas el
+cosas para las que eres especialmente apto. Usted trae
+creatividad, intuición e inventiva para esto
+camaradería.
+
+Creatividad y motivación.
+
+Si bien este libro no está destinado a programadores profesionales, los profesionales
+La programación puede ser un trabajo muy gratificante tanto financiera como personalmente.
+Desarrollar programas útiles, elegantes e inteligentes para que otros los usen es muy
+actividad creativa. Su computadora o Asistente digital personal (PDA)
+generalmente contiene muchos programas diferentes de muchos grupos diferentes de
+programadores, cada uno compitiendo por su atención e interés. Intentan
+su mejor esfuerzo para satisfacer sus necesidades y brindarle una excelente experiencia de usuario en el
+proceso. En algunas situaciones, cuando elige una pieza de software, el
+los programadores son compensados ​​directamente por su elección.
+
+Si pensamos en los programas como la salida creativa de grupos de programadores,
+quizás la siguiente figura es una versión más sensata de nuestro PDA:
+
+Por ahora, nuestra motivación principal no es ganar dinero o complacer a los usuarios finales, sino
+en cambio para que seamos más productivos en el manejo de los datos y
+información que encontraremos en nuestras vidas.
+Cuando comiences por primera vez, serás tanto el programador como el usuario final de
+sus programas A medida que adquieres habilidad como programador y
+la programación te parece más creativa, tus pensamientos pueden cambiar
+hacia el desarrollo de programas para otros.
+
+Arquitectura de hardware de computadora
+
+Antes de comenzar a aprender el idioma,
+hablar para dar instrucciones a las computadoras para
+desarrollar software, necesitamos aprender una pequeña cantidad sobre
+cómo se construyen las computadoras.
+
+La unidad central de procesamiento (o CPU) es
+la parte de la computadora que está construida para obsesionarse
+con lo que sigue? Si su computadora está clasificada
+a tres Gigahercios, significa que la CPU preguntará ¿Qué sigue?
+tres mil millones de veces por segundo. Vas a tener que
+aprenda a hablar rápido para mantenerse al día con la CPU.
+
+La memoria principal se usa para almacenar información
+que la CPU necesita a toda prisa. La memoria principal es casi tan
+tan rápido como la CPU. Pero la información almacenada en el principal
+la memoria desaparece cuando la computadora está apagada.
+
+La memoria secundaria también se usa para almacenar
+información, pero es mucho más lenta que la memoria principal.
+La ventaja de la memoria secundaria es que puede
+almacenar información incluso cuando no hay poder para el
+computadora. Ejemplos de memoria secundaria son las unidades de disco
+o memoria flash (generalmente se encuentra en memorias USB y portátiles
+reproductores de musica).
+
+Los dispositivos de entrada y salida son simplemente nuestro
+pantalla, teclado, mouse, micrófono, altavoz, panel táctil, etc.
+Son todas las formas en que interactuamos con la computadora.
+
+En estos días, la mayoría de c
+¿Por qué deberías aprender a escribir programas?
+
+Escribir programas (o programación) es muy creativo
+y actividad gratificante. Puedes escribir programas para
+muchas razones, desde ganarse la vida hasta resolver
+un problema difícil de análisis de datos para divertirse ayudando
+Alguien más resuelve un problema. Este libro asume que
+todo el mundo necesita saber programar, y eso una vez
+sabes programar, descubrirás lo que quieres
+que ver con tus nuevas habilidades.
+
+Estamos rodeados en nuestra vida diaria con computadoras que van
+desde computadoras portátiles hasta teléfonos celulares. Podemos pensar en estas computadoras
+como nuestros asistentes personales que pueden encargarse de muchas cosas
+en nuestro nombre. El hardware en nuestras computadoras actuales
+está esencialmente construido para hacernos continuamente la pregunta,
+¿Qué te gustaría que hiciera después?
+
+Los programadores agregan un sistema operativo y un conjunto de aplicaciones
+al hardware y terminamos con un Digital Personal
+Asistente que es bastante útil y capaz de ayudar
+nosotros hacemos muchas cosas diferentes.
+
+Nuestras computadoras son rápidas y tienen grandes cantidades de memoria y
+podría ser muy útil para nosotros si solo supiéramos el idioma para
+hablar para explicarle a la computadora lo que nos gustaría
+has el siguiente. Si supiéramos este idioma, podríamos decirle al
+computadora para hacer tareas en nuestro nombre que fueron repetitivas.
+Curiosamente, el tipo de cosas que las computadoras pueden hacer mejor
+son a menudo el tipo de cosas que los humanos encontramos aburridos
+y aturdidor mental.
+
+Por ejemplo, mire los primeros tres párrafos de este
+capítulo y dime la palabra más utilizada y cómo
+muchas veces se usa la palabra. Mientras pudiste leer
+y entiendo las palabras en unos segundos, contándolas
+es casi doloroso porque no es el tipo de problema
+que las mentes humanas están diseñadas para resolver. Para una computadora
+lo contrario es cierto, leer y comprender textos
+de una hoja de papel es difícil para una computadora hacer
+pero contando las palabras y diciéndote cuántas veces
+la palabra más utilizada fue muy fácil para el
+computadora:
+
+Nuestro asistente de análisis de información personal rápidamente
+nos dijo que la palabra to se usó dieciséis veces en el
+primeros tres párrafos de este capítulo.
+
+Este hecho de que las computadoras son buenas para las cosas
+que los humanos no son, es por eso que necesitas convertirte
+hábil para hablar lenguaje informático. Una vez que aprendas
+este nuevo lenguaje, puede delegar tareas mundanas
+a su pareja (la computadora), dejando más tiempo
+para que hagas el
+cosas para las que eres especialmente apto. Usted trae
+creatividad, intuición e inventiva para esto
+camaradería.
+
+Creatividad y motivación.
+
+Si bien este libro no está destinado a programadores profesionales, los profesionales
+La programación puede ser un trabajo muy gratificante tanto financiera como personalmente.
+Desarrollar programas útiles, elegantes e inteligentes para que otros los usen es muy
+actividad creativa. Su computadora o Asistente digital personal (PDA)
+generalmente contiene muchos programas diferentes de muchos grupos diferentes de
+programadores, cada uno compitiendo por su atención e interés. Intentan
+su mejor esfuerzo para satisfacer sus necesidades y brindarle una excelente experiencia de usuario en el
+proceso. En algunas situaciones, cuando elige una pieza de software, el
+los programadores son compensados ​​directamente por su elección.
+
+Si pensamos en los programas como la salida creativa de grupos de programadores,
+quizás la siguiente figura es una versión más sensata de nuestro PDA:
+
+Por ahora, nuestra motivación principal no es ganar dinero o complacer a los usuarios finales, sino
+en cambio para que seamos más productivos en el manejo de los datos y
+información que encontraremos en nuestras vidas.
+Cuando comiences por primera vez, serás tanto el programador como el usuario final de
+sus programas A medida que adquieres habilidad como programador y
+la programación te parece más creativa, tus pensamientos pueden cambiar
+hacia el desarrollo de programas para otros.
+
+Arquitectura de hardware de computadora
+
+Antes de comenzar a aprender el idioma,
+hablar para dar instrucciones a las computadoras para
+desarrollar software, necesitamos aprender una pequeña cantidad sobre
+cómo se construyen las computadoras.
+
+La unidad central de procesamiento (o CPU) es
+la parte de la computadora que está construida para obsesionarse
+con lo que sigue? Si su computadora está clasificada
+a tres Gigahercios, significa que la CPU preguntará ¿Qué sigue?
+tres mil millones de veces por segundo. Vas a tener que
+aprenda a hablar rápido para mantenerse al día con la CPU.
+
+La memoria principal se usa para almacenar información
+que la CPU necesita a toda prisa. La memoria principal es casi tan
+tan rápido como la CPU. Pero la información almacenada en el principal
+la memoria desaparece cuando la computadora está apagada.
+
+La memoria secundaria también se usa para almacenar
+información, pero es mucho más lenta que la memoria principal.
+La ventaja de la memoria secundaria es que puede
+almacenar información incluso cuando no hay poder para el
+computadora. Ejemplos de memoria secundaria son las unidades de disco
+o memoria flash (generalmente se encuentra en memorias USB y portátiles
+reproductores de musica).
+
+Los dispositivos de entrada y salida son simplemente nuestro
+pantalla, teclado, mouse, micrófono, altavoz, panel táctil, etc.
+Son todas las formas en que interactuamos con la computadora.
+
+En estos días, la mayoría de c
+¿Por qué deberías aprender a escribir programas?
+
+Escribir programas (o programación) es muy creativo
+y actividad gratificante. Puedes escribir programas para
+muchas razones, desde ganarse la vida hasta resolver
+un problema difícil de análisis de datos para divertirse ayudando
+Alguien más resuelve un problema. Este libro asume que
+todo el mundo necesita saber programar, y eso una vez
+sabes programar, descubrirás lo que quieres
+que ver con tus nuevas habilidades.
+
+Estamos rodeados en nuestra vida diaria con computadoras que van
+desde computadoras portátiles hasta teléfonos celulares. Podemos pensar en estas computadoras
+como nuestros asistentes personales que pueden encargarse de muchas cosas
+en nuestro nombre. El hardware en nuestras computadoras actuales
+está esencialmente construido para hacernos continuamente la pregunta,
+¿Qué te gustaría que hiciera después?
+
+Los programadores agregan un sistema operativo y un conjunto de aplicaciones
+al hardware y terminamos con un Digital Personal
+Asistente que es bastante útil y capaz de ayudar
+nosotros hacemos muchas cosas diferentes.
+
+Nuestras computadoras son rápidas y tienen grandes cantidades de memoria y
+podría ser muy útil para nosotros si solo supiéramos el idioma para
+hablar para explicarle a la computadora lo que nos gustaría
+has el siguiente. Si supiéramos este idioma, podríamos decirle al
+computadora para hacer tareas en nuestro nombre que fueron repetitivas.
+Curiosamente, el tipo de cosas que las computadoras pueden hacer mejor
+son a menudo el tipo de cosas que los humanos encontramos aburridos
+y aturdidor mental.
+
+Por ejemplo, mire los primeros tres párrafos de este
+capítulo y dime la palabra más utilizada y cómo
+muchas veces se usa la palabra. Mientras pudiste leer
+y entiendo las palabras en unos segundos, contándolas
+es casi doloroso porque no es el tipo de problema
+que las mentes humanas están diseñadas para resolver. Para una computadora
+lo contrario es cierto, leer y comprender textos
+de una hoja de papel es difícil para una computadora hacer
+pero contando las palabras y diciéndote cuántas veces
+la palabra más utilizada fue muy fácil para el
+computadora:
+
+Nuestro asistente de análisis de información personal rápidamente
+nos dijo que la palabra to se usó dieciséis veces en el
+primeros tres párrafos de este capítulo.
+
+Este hecho de que las computadoras son buenas para las cosas
+que los humanos no son, es por eso que necesitas convertirte
+hábil para hablar lenguaje informático. Una vez que aprendas
+este nuevo lenguaje, puede delegar tareas mundanas
+a su pareja (la computadora), dejando más tiempo
+para que hagas el
+cosas para las que eres especialmente apto. Usted trae
+creatividad, intuición e inventiva para esto
+camaradería.
+
+Creatividad y motivación.
+
+Si bien este libro no está destinado a programadores profesionales, los profesionales
+La programación puede ser un trabajo muy gratificante tanto financiera como personalmente.
+Desarrollar programas útiles, elegantes e inteligentes para que otros los usen es muy
+actividad creativa. Su computadora o Asistente digital personal (PDA)
+generalmente contiene muchos programas diferentes de muchos grupos diferentes de
+programadores, cada uno compitiendo por su atención e interés. Intentan
+su mejor esfuerzo para satisfacer sus necesidades y brindarle una excelente experiencia de usuario en el
+proceso. En algunas situaciones, cuando elige una pieza de software, el
+los programadores son compensados ​​directamente por su elección.
+
+Si pensamos en los programas como la salida creativa de grupos de programadores,
+quizás la siguiente figura es una versión más sensata de nuestro PDA:
+
+Por ahora, nuestra motivación principal no es ganar dinero o complacer a los usuarios finales, sino
+en cambio para que seamos más productivos en el manejo de los datos y
+información que encontraremos en nuestras vidas.
+Cuando comiences por primera vez, serás tanto el programador como el usuario final de
+sus programas A medida que adquieres habilidad como programador y
+la programación te parece más creativa, tus pensamientos pueden cambiar
+hacia el desarrollo de programas para otros.
+
+Arquitectura de hardware de computadora
+
+Antes de comenzar a aprender el idioma,
+hablar para dar instrucciones a las computadoras para
+desarrollar software, necesitamos aprender una pequeña cantidad sobre
+cómo se construyen las computadoras.
+
+La unidad central de procesamiento (o CPU) es
+la parte de la computadora que está construida para obsesionarse
+con lo que sigue? Si su computadora está clasificada
+a tres Gigahercios, significa que la CPU preguntará ¿Qué sigue?
+tres mil millones de veces por segundo. Vas a tener que
+aprenda a hablar rápido para mantenerse al día con la CPU.
+
+La memoria principal se usa para almacenar información
+que la CPU necesita a toda prisa. La memoria principal es casi tan
+tan rápido como la CPU. Pero la información almacenada en el principal
+la memoria desaparece cuando la computadora está apagada.
+
+La memoria secundaria también se usa para almacenar
+información, pero es mucho más lenta que la memoria principal.
+La ventaja de la memoria secundaria es que puede
+almacenar información incluso cuando no hay poder para el
+computadora. Ejemplos de memoria secundaria son las unidades de disco
+o memoria flash (generalmente se encuentra en memorias USB y portátiles
+reproductores de musica).
+
+Los dispositivos de entrada y salida son simplemente nuestro
+pantalla, teclado, mouse, micrófono, altavoz, panel táctil, etc.
+Son todas las formas en que interactuamos con la computadora.
+
+En estos días, la mayoría de c
+¿Por qué deberías aprender a escribir programas?
+
+Escribir programas (o programación) es muy creativo
+y actividad gratificante. Puedes escribir programas para
+muchas razones, desde ganarse la vida hasta resolver
+un problema difícil de análisis de datos para divertirse ayudando
+Alguien más resuelve un problema. Este libro asume que
+todo el mundo necesita saber programar, y eso una vez
+sabes programar, descubrirás lo que quieres
+que ver con tus nuevas habilidades.
+
+Estamos rodeados en nuestra vida diaria con computadoras que van
+desde computadoras portátiles hasta teléfonos celulares. Podemos pensar en estas computadoras
+como nuestros asistentes personales que pueden encargarse de muchas cosas
+en nuestro nombre. El hardware en nuestras computadoras actuales
+está esencialmente construido para hacernos continuamente la pregunta,
+¿Qué te gustaría que hiciera después?
+
+Los programadores agregan un sistema operativo y un conjunto de aplicaciones
+al hardware y terminamos con un Digital Personal
+Asistente que es bastante útil y capaz de ayudar
+nosotros hacemos muchas cosas diferentes.
+
+Nuestras computadoras son rápidas y tienen grandes cantidades de memoria y
+podría ser muy útil para nosotros si solo supiéramos el idioma para
+hablar para explicarle a la computadora lo que nos gustaría
+has el siguiente. Si supiéramos este idioma, podríamos decirle al
+computadora para hacer tareas en nuestro nombre que fueron repetitivas.
+Curiosamente, el tipo de cosas que las computadoras pueden hacer mejor
+son a menudo el tipo de cosas que los humanos encontramos aburridos
+y aturdidor mental.
+
+Por ejemplo, mire los primeros tres párrafos de este
+capítulo y dime la palabra más utilizada y cómo
+muchas veces se usa la palabra. Mientras pudiste leer
+y entiendo las palabras en unos segundos, contándolas
+es casi doloroso porque no es el tipo de problema
+que las mentes humanas están diseñadas para resolver. Para una computadora
+lo contrario es cierto, leer y comprender textos
+de una hoja de papel es difícil para una computadora hacer
+pero contando las palabras y diciéndote cuántas veces
+la palabra más utilizada fue muy fácil para el
+computadora:
+
+Nuestro asistente de análisis de información personal rápidamente
+nos dijo que la palabra to se usó dieciséis veces en el
+primeros tres párrafos de este capítulo.
+
+Este hecho de que las computadoras son buenas para las cosas
+que los humanos no son, es por eso que necesitas convertirte
+hábil para hablar lenguaje informático. Una vez que aprendas
+este nuevo lenguaje, puede delegar tareas mundanas
+a su pareja (la computadora), dejando más tiempo
+para que hagas el
+cosas para las que eres especialmente apto. Usted trae
+creatividad, intuición e inventiva para esto
+camaradería.
+
+Creatividad y motivación.
+
+Si bien este libro no está destinado a programadores profesionales, los profesionales
+La programación puede ser un trabajo muy gratificante tanto financiera como personalmente.
+Desarrollar programas útiles, elegantes e inteligentes para que otros los usen es muy
+actividad creativa. Su computadora o Asistente digital personal (PDA)
+generalmente contiene muchos programas diferentes de muchos grupos diferentes de
+programadores, cada uno compitiendo por su atención e interés. Intentan
+su mejor esfuerzo para satisfacer sus necesidades y brindarle una excelente experiencia de usuario en el
+proceso. En algunas situaciones, cuando elige una pieza de software, el
+los programadores son compensados ​​directamente por su elección.
+
+Si pensamos en los programas como la salida creativa de grupos de programadores,
+quizás la siguiente figura es una versión más sensata de nuestro PDA:
+
+Por ahora, nuestra motivación principal no es ganar dinero o complacer a los usuarios finales, sino
+en cambio para que seamos más productivos en el manejo de los datos y
+información que encontraremos en nuestras vidas.
+Cuando comiences por primera vez, serás tanto el programador como el usuario final de
+sus programas A medida que adquieres habilidad como programador y
+la programación te parece más creativa, tus pensamientos pueden cambiar
+hacia el desarrollo de programas para otros.
+
+Arquitectura de hardware de computadora
+
+Antes de comenzar a aprender el idioma,
+hablar para dar instrucciones a las computadoras para
+desarrollar software, necesitamos aprender una pequeña cantidad sobre
+cómo se construyen las computadoras.
+
+La unidad central de procesamiento (o CPU) es
+la parte de la computadora que está construida para obsesionarse
+con lo que sigue? Si su computadora está clasificada
+a tres Gigahercios, significa que la CPU preguntará ¿Qué sigue?
+tres mil millones de veces por segundo. Vas a tener que
+aprenda a hablar rápido para mantenerse al día con la CPU.
+
+La memoria principal se usa para almacenar información
+que la CPU necesita a toda prisa. La memoria principal es casi tan
+tan rápido como la CPU. Pero la información almacenada en el principal
+la memoria desaparece cuando la computadora está apagada.
+
+La memoria secundaria también se usa para almacenar
+información, pero es mucho más lenta que la memoria principal.
+La ventaja de la memoria secundaria es que puede
+almacenar información incluso cuando no hay poder para el
+computadora. Ejemplos de memoria secundaria son las unidades de disco
+o memoria flash (generalmente se encuentra en memorias USB y portátiles
+reproductores de musica).
+
+Los dispositivos de entrada y salida son simplemente nuestro
+pantalla, teclado, mouse, micrófono, altavoz, panel táctil, etc.
+Son todas las formas en que interactuamos con la computadora.
+
+En estos días, la mayoría de c
+¿Por qué deberías aprender a escribir programas?
+
+Escribir programas (o programación) es muy creativo
+y actividad gratificante. Puedes escribir programas para
+muchas razones, desde ganarse la vida hasta resolver
+un problema difícil de análisis de datos para divertirse ayudando
+Alguien más resuelve un problema. Este libro asume que
+todo el mundo necesita saber programar, y eso una vez
+sabes programar, descubrirás lo que quieres
+que ver con tus nuevas habilidades.
+
+Estamos rodeados en nuestra vida diaria con computadoras que van
+desde computadoras portátiles hasta teléfonos celulares. Podemos pensar en estas computadoras
+como nuestros asistentes personales que pueden encargarse de muchas cosas
+en nuestro nombre. El hardware en nuestras computadoras actuales
+está esencialmente construido para hacernos continuamente la pregunta,
+¿Qué te gustaría que hiciera después?
+
+Los programadores agregan un sistema operativo y un conjunto de aplicaciones
+al hardware y terminamos con un Digital Personal
+Asistente que es bastante útil y capaz de ayudar
+nosotros hacemos muchas cosas diferentes.
+
+Nuestras computadoras son rápidas y tienen grandes cantidades de memoria y
+podría ser muy útil para nosotros si solo supiéramos el idioma para
+hablar para explicarle a la computadora lo que nos gustaría
+has el siguiente. Si supiéramos este idioma, podríamos decirle al
+computadora para hacer tareas en nuestro nombre que fueron repetitivas.
+Curiosamente, el tipo de cosas que las computadoras pueden hacer mejor
+son a menudo el tipo de cosas que los humanos encontramos aburridos
+y aturdidor mental.
+
+Por ejemplo, mire los primeros tres párrafos de este
+capítulo y dime la palabra más utilizada y cómo
+muchas veces se usa la palabra. Mientras pudiste leer
+y entiendo las palabras en unos segundos, contándolas
+es casi doloroso porque no es el tipo de problema
+que las mentes humanas están diseñadas para resolver. Para una computadora
+lo contrario es cierto, leer y comprender textos
+de una hoja de papel es difícil para una computadora hacer
+pero contando las palabras y diciéndote cuántas veces
+la palabra más utilizada fue muy fácil para el
+computadora:
+
+Nuestro asistente de análisis de información personal rápidamente
+nos dijo que la palabra to se usó dieciséis veces en el
+primeros tres párrafos de este capítulo.
+
+Este hecho de que las computadoras son buenas para las cosas
+que los humanos no son, es por eso que necesitas convertirte
+hábil para hablar lenguaje informático. Una vez que aprendas
+este nuevo lenguaje, puede delegar tareas mundanas
+a su pareja (la computadora), dejando más tiempo
+para que hagas el
+cosas para las que eres especialmente apto. Usted trae
+creatividad, intuición e inventiva para esto
+camaradería.
+
+Creatividad y motivación.
+
+Si bien este libro no está destinado a programadores profesionales, los profesionales
+La programación puede ser un trabajo muy gratificante tanto financiera como personalmente.
+Desarrollar programas útiles, elegantes e inteligentes para que otros los usen es muy
+actividad creativa. Su computadora o Asistente digital personal (PDA)
+generalmente contiene muchos programas diferentes de muchos grupos diferentes de
+programadores, cada uno compitiendo por su atención e interés. Intentan
+su mejor esfuerzo para satisfacer sus necesidades y brindarle una excelente experiencia de usuario en el
+proceso. En algunas situaciones, cuando elige una pieza de software, el
+los programadores son compensados ​​directamente por su elección.
+
+Si pensamos en los programas como la salida creativa de grupos de programadores,
+quizás la siguiente figura es una versión más sensata de nuestro PDA:
+
+Por ahora, nuestra motivación principal no es ganar dinero o complacer a los usuarios finales, sino
+en cambio para que seamos más productivos en el manejo de los datos y
+información que encontraremos en nuestras vidas.
+Cuando comiences por primera vez, serás tanto el programador como el usuario final de
+sus programas A medida que adquieres habilidad como programador y
+la programación te parece más creativa, tus pensamientos pueden cambiar
+hacia el desarrollo de programas para otros.
+
+Arquitectura de hardware de computadora
+
+Antes de comenzar a aprender el idioma,
+hablar para dar instrucciones a las computadoras para
+desarrollar software, necesitamos aprender una pequeña cantidad sobre
+cómo se construyen las computadoras.
+
+La unidad central de procesamiento (o CPU) es
+la parte de la computadora que está construida para obsesionarse
+con lo que sigue? Si su computadora está clasificada
+a tres Gigahercios, significa que la CPU preguntará ¿Qué sigue?
+tres mil millones de veces por segundo. Vas a tener que
+aprenda a hablar rápido para mantenerse al día con la CPU.
+
+La memoria principal se usa para almacenar información
+que la CPU necesita a toda prisa. La memoria principal es casi tan
+tan rápido como la CPU. Pero la información almacenada en el principal
+la memoria desaparece cuando la computadora está apagada.
+
+La memoria secundaria también se usa para almacenar
+información, pero es mucho más lenta que la memoria principal.
+La ventaja de la memoria secundaria es que puede
+almacenar información incluso cuando no hay poder para el
+computadora. Ejemplos de memoria secundaria son las unidades de disco
+o memoria flash (generalmente se encuentra en memorias USB y portátiles
+reproductores de musica).
+
+Los dispositivos de entrada y salida son simplemente nuestro
+pantalla, teclado, mouse, micrófono, altavoz, panel táctil, etc.
+Son todas las formas en que interactuamos con la computadora.
+
+En estos días, la mayoría de c
