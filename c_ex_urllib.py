@@ -9,10 +9,12 @@ for line in fhand:
     # This doesn't show the headers, there is a particular method for that
     print(line.decode().strip())
 
+
+fhand2 = urllib.request.urlopen('http://data.pr4e.org/romeo.txt')
 counts = dict()
-for line in fhand:
+for line2 in fhand2:
     # We have to decode it from byte to string before we can process it, this is important. This turns to string so we can work with string methods.
-    words = line.decode().split()
+    words = line2.decode().split()
     for word in words:
         counts[word] = counts.get(word,0) + 1
 print(counts)
