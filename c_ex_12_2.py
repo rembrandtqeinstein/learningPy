@@ -15,15 +15,12 @@ mysock.send(cmd)
 wcount = 0
 
 while True:
-    data = mysock.recv(4096)
+    data = mysock.recv(512)
     if (len(data) < 1):
         break
     line = data.decode()
-    line = line.split()
-    if wcount < 3001:
-        for w in line:
-            for c in w:
-                wcount = wcount + 1
-                print(wcount)
-    print(data.decode())
+    wcount = wcount + len(line)
+    if wcount < 3000:
+        print(data.decode().strip())
+print(wcount)
 mysock.close()
