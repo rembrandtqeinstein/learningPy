@@ -1,7 +1,7 @@
 flist = list()
 while True:
     numb = input("Say a number: ")
-    if numb == 'done' : break
+    if numb == 'done': break
     try:
         numb = float(numb)
     except:
