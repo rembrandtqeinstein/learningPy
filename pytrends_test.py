@@ -1,5 +1,6 @@
 import pandas as pd
 from pytrends.request import TrendReq
+from pytrends import dailydata
 
 pytrends = TrendReq(hl='en-US', tz=360)
 #keywords = ['Lana', 'Mercado Pago']
@@ -24,3 +25,6 @@ print(df)
 
 #t = pytrends.get_historical_interest('Corona', year_start=2020, month_start=1, day_start=1, hour_start=0, year_end=2020, month_end=5, day_end=1, hour_end=0, cat=0, geo='', gprop='', sleep=20)
 #print(t)
+
+df = dailydata.get_daily_data('cinema', 2019, 1, 2019, 10, geo = 'BR')
+print(df)
