@@ -17,7 +17,7 @@ for line in fhandler:
     hist[words[0]] = hist.get(words[0],0) + 1
     #print(words)
 
-#print(hist)
+#print(hist) # Added comment
 
 # This for and order can be replaced with a single Line ORD Line to create a list of tuples organized by key and then print it one by one
 #lis = list()
