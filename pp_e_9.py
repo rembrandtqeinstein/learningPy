@@ -6,7 +6,6 @@ while True:
     guess = None
     while guess == None:
         gs = input("Guess a number from 1 to 9: ")
-        count = count + 1
         if gs == 'exit':
             exit()
         try:
@@ -15,6 +14,7 @@ while True:
             print("Not a number")
         #if gs > 9 or gs < 1:
         #    print("Number out of range")
+        count = count + 1
         if gs == num:
             guess = True
             print(gs, "is the number. You guessed on your", count)
