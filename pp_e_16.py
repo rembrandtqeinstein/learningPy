@@ -1,12 +1,7 @@
 import random, string
 
 def simple_word_list():
-    fname = "romeo.txt"
-
-    try:
-        fhandler = open(fname)
-    except:
-        quit()
+    fhandler = open("romeo.txt")
 
     words = list()
 
