@@ -22,5 +22,6 @@ for i in file2:
 
 ord2 = sorted([(v,k) for k,v in dic2.items()], reverse=True)
 
+print("---------------")
 for v,k in ord2:
     print(k,v)
