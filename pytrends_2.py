@@ -5,7 +5,7 @@ from pytrends.request import TrendReq
 pytrend = TrendReq()
 
 trending_searches_df = pytrend.trending_searches()
-print(trending_searches_df.head(20))
+print(trending_searches_df)
 
 # Get Google Hot Trends data
 today_searches_df = pytrend.today_searches()
