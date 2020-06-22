@@ -10,3 +10,6 @@ print(trending_searches_df)
 # Get Google Hot Trends data
 today_searches_df = pytrend.today_searches()
 print(today_searches_df.head(20))
+
+kw_list = ["Mercado Pago", "Cabify", "SpotAHome"]
+pytrend.build_payload(kw_list, cat=0, timeframe='today 5-y', geo='', gprop='')
