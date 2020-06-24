@@ -56,7 +56,6 @@ if graph.lower() == 'Yes':
     fig.savefig(kw_list[0]+'.png')
 
 
-
 print()
 ex = input("Type done if you want to leave, enter to continue: ")
 if ex.lower() == 'done':
