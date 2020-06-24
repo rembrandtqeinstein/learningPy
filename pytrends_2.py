@@ -27,7 +27,7 @@ tb = pytrend.build_payload(
     kw_list,
     cat=0,
     timeframe='today 5-y', # This can be changed to have a new timeline
-    geo='ES', # This needs to change if you want not to use Spain
+    geo='', # This needs to change if you want not to use Spain (ES)
     gprop='')
 rq = pytrend.related_queries()
 #rq = rq.drop(labels=['isPartial'],axis='columns')
@@ -41,12 +41,15 @@ for word in kw_list:
     print(rising)
 
 print()
-print("Interest Over Time of the befored Selected Queries figure Created")
-iot = pytrend.interest_over_time()
-iot = iot.drop(labels=['isPartial'],axis='columns')
-img = iot.plot(title = 'Comparing the words: {}'.format(kw_list))
-fig = img.get_figure()
-fig.savefig('figureP.png')
+
+graph = input("Do you want to plot the Interest Over Time? (Yes to Graph, enter to skip): ")
+if graph == 'Yes':
+    print("Interest Over Time of the befored Selected Queries figure Created")
+    iot = pytrend.interest_over_time()
+    iot = iot.drop(labels=['isPartial'],axis='columns')
+    img = iot.plot(title = 'Comparing the words: {}'.format(kw_list))
+    fig = img.get_figure()
+    fig.savefig('figureP.png')
 
 print()
 print("Comparative Graph creation and CSV File for Compared Keywords")
