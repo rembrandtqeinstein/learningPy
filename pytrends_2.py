@@ -49,7 +49,7 @@ if graph == 'Yes':
     iot = iot.drop(labels=['isPartial'],axis='columns')
     img = iot.plot(title = 'Comparing the words: {}'.format(kw_list))
     fig = img.get_figure()
-    fig.savefig('figureP.png')
+    fig.savefig(kw_list[0]+'.png')
 
 print()
 print("Comparative Graph creation and CSV File for Compared Keywords")
