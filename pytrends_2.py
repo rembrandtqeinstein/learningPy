@@ -14,6 +14,10 @@ print("Get Today Trending Searches")
 today_searches_df = pytrend.today_searches()
 print(today_searches_df.head(20))
 
+ex = input("Type done if you want to leave, enter to continue: ")
+if ex.lower() == 'done':
+    exit()
+
 print()
 print("See Related Queries to a Particular Query o Queries (Suggested to use just one")
 #kw_list = ["Podcast"]
@@ -43,7 +47,7 @@ for word in kw_list:
 print()
 
 graph = input("Do you want to plot the Interest Over Time? (Yes to Graph, enter to skip): ")
-if graph == 'Yes':
+if graph.lower() == 'Yes':
     print("Interest Over Time of the befored Selected Queries figure Created")
     iot = pytrend.interest_over_time()
     iot = iot.drop(labels=['isPartial'],axis='columns')
@@ -51,7 +55,13 @@ if graph == 'Yes':
     fig = img.get_figure()
     fig.savefig(kw_list[0]+'.png')
 
+
+
 print()
+ex = input("Type done if you want to leave, enter to continue: ")
+if ex.lower() == 'done':
+    exit()
+
 print("Comparative Graph creation and CSV File for Compared Keywords")
 pytrend = TrendReq(tz=360)
 #keywords = ['Podcast', 'Radio']
