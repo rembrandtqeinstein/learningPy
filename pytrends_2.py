@@ -14,12 +14,12 @@ print("Get Today Trending Searches")
 today_searches_df = pytrend.today_searches()
 print(today_searches_df.head(20))
 
-ex = input("Type done if you want to leave, enter to continue: ")
-if ex.lower() == 'done':
-    exit()
+#ex = input("Type done if you want to leave, enter to continue: ")
+#if ex.lower() == 'done':
+#    exit()
 
 print()
-print("See Related Queries to a Particular Query o Queries (Suggested to use just one")
+print("See Related Queries to a Particular Query o Queries (Suggested to use just one)")
 #kw_list = ["Podcast"]
 kw_list = list()
 kw = input("Enter the Keywords you want to look up separated by a , and no spaces: ")
