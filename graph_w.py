@@ -10,7 +10,7 @@ dl = list()
 for date in date_generated:
     dl.append(date.strftime("%d-%m-%Y"))
 
-weight = [67.1, 66.8, 66.8, 67.4]
+weight = [67.1, 66.8, 66.8, 66.5]
 
 counts = dict()
 for x in weight:
@@ -30,4 +30,4 @@ for k, v in ord:
 print("Average weight rounded till {}".format(end))
 print(round(statistics.mean(weight),1))
 print("Median weight rounded till {}".format(end))
-print(statistics.median(weight))
+print(round(statistics.median(weight),1))
