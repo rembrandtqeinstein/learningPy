@@ -3,14 +3,14 @@ import datetime
 import statistics
 
 start = datetime.datetime.strptime("07-07-2020", "%d-%m-%Y")
-end = datetime.datetime.strptime("11-07-2020", "%d-%m-%Y")
+end = datetime.datetime.strptime("12-07-2020", "%d-%m-%Y")
 date_generated = [start + datetime.timedelta(days=x) for x in range(0, (end-start).days)]
 dl = list()
 
 for date in date_generated:
     dl.append(date.strftime("%d-%m-%Y"))
 
-weight = [67.1, 66.8, 66.8, 66.5]
+weight = [67.1, 66.8, 66.8, 66.5, 66.7]
 
 counts = dict()
 for x in weight:
