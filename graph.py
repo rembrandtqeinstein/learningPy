@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import datetime
 import statistics
+import numpy as np
 
 start = datetime.datetime.strptime("06-05-2020", "%d-%m-%Y")
 end = datetime.datetime.strptime("12-07-2020", "%d-%m-%Y")
@@ -21,7 +22,20 @@ counts = dict()
 for x in temp:
     counts[x] = counts.get(x,0) + 1
 
-plt.plot(dl, temp)
+for x,y in zip(dl,temp):
+
+    label = "{:.2f}".format(y)
+
+    plt.annotate(label, # this is the text
+                 (x,y), # this is the point to label
+                 textcoords="offset points", # how to position the text
+                 xytext=(0,10), # distance from text to points (x,y)
+                 ha='center') # horizontal alignment can be left, right or center
+
+plt.xticks(np.arange(0,10,1))
+plt.yticks(np.arange(0,7,0.5))
+
+plt.plot(dl, temp, 'bo-')
 plt.show()
 
 plt.hist(temp, bins=len(temp))
