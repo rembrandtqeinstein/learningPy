@@ -4,14 +4,14 @@ import statistics
 import numpy as np
 
 start = datetime.datetime.strptime("07-07-2020", "%d-%m-%Y")
-end = datetime.datetime.strptime("25-08-2020", "%d-%m-%Y")
+end = datetime.datetime.strptime("26-08-2020", "%d-%m-%Y")
 date_generated = [start + datetime.timedelta(days=x) for x in range(0, (end-start).days)]
 dl = list()
 
 for date in date_generated:
     dl.append(date.strftime("%d-%m-%Y"))
 
-weight = [67.1, 66.8, 66.8, 66.5, 66.7, 67.6, 68.2, 67.5, 67.8, 67.9, 67.5, 68.0, 67.4, 68.6, 68.0, 68.0, 68.5, 67.8, 68.4, 69.0, 69.9, 68.9, 69.4, 67.9, 67.9, 68.6, 69.0, 69.2, 68.7, 68.7, 69.2, 68.1, 68.1, 69.0, 68.4, 68.0, 69.2, 68.1, 68.1, 68.1, 68.1, 69.2, 69.8, 69.5, 70.2, 69.3, 69.4, 69.6, 69.7]
+weight = [67.1, 66.8, 66.8, 66.5, 66.7, 67.6, 68.2, 67.5, 67.8, 67.9, 67.5, 68.0, 67.4, 68.6, 68.0, 68.0, 68.5, 67.8, 68.4, 69.0, 69.9, 68.9, 69.4, 67.9, 67.9, 68.6, 69.0, 69.2, 68.7, 68.7, 69.2, 68.1, 68.1, 69.0, 68.4, 68.0, 69.2, 68.1, 68.1, 68.1, 68.1, 69.2, 69.8, 69.5, 70.2, 69.3, 69.4, 69.6, 69.7, 69.2]
 
 counts = dict()
 for x in weight:
