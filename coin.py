@@ -8,7 +8,7 @@ def coinFlip(p):
 #probability of heads vs. tails. This can be changed.
 probability = .5
 #num of flips required. This can be changed.
-n = 10000000
+n = 100
 #initiate array
 fullResults = np.arange(n)
 #perform desired numbered of flips at required probability set above
