@@ -8,7 +8,7 @@ def coinFlip(p):
 #probability of heads vs. tails. This can be changed.
 probability = .5
 #num of flips required. This can be changed.
-n = 100
+n = 1000000
 #initiate array
 fullResults = np.arange(n)
 #perform desired numbered of flips at required probability set above
@@ -19,10 +19,10 @@ for i in range(0, n):
 ratio = np.count_nonzero(fullResults == 1)/(np.count_nonzero(fullResults == 1) + np.count_nonzero(fullResults == 0))
 #print results
 print("probability is set to ", probability)
-print("Taxfix = 0, Bipi = 1: ", fullResults)
+print("No = 0, Si = 1: ", fullResults)
 #Total up heads and tails for easy user experience
-print("Bipi Count: ", np.count_nonzero(fullResults == 1))
-print("Taxfix Count: ", np.count_nonzero(fullResults == 0))
+print("Si Count: ", np.count_nonzero(fullResults == 1))
+print("No Count: ", np.count_nonzero(fullResults == 0))
 #Print the percentage
-print("Bipi Ratio: ", (ratio*100), "%")
-print("Taxfix Ratio: ", ((1-ratio)*100), "%")
+print("Si Ratio: ", (ratio*100), "%")
+print("No Ratio: ", ((1-ratio)*100), "%")
