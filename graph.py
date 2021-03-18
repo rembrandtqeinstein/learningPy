@@ -4,7 +4,7 @@ import statistics
 import numpy as np
 
 start = datetime.datetime.strptime("06-05-2020", "%d-%m-%Y")
-end = datetime.datetime.strptime("17-03-2021", "%d-%m-%Y")
+end = datetime.datetime.strptime("18-03-2021", "%d-%m-%Y")
 date_generated = [start + datetime.timedelta(days=x) for x in range(0, (end-start).days)]
 dl = list()
 
