@@ -11,7 +11,7 @@ dl = list()
 for date in date_generated:
     dl.append(date.strftime("%d-%m-%Y"))
 
-# From the 7 of July onwards Oral check same temp
+# From the 7 of July onwards Oral check same temp.
 
 temp = [35.3, 35.3, 35.8, 35.5, 35.6, 35.2, 35.4, 35.7, 35, 35.7, 36.1, 35.8, 35.8, 35.3, 35.3,
         36.1, 36.0, 35.3, 35.9, 35.7, 36.0, 35.8, 36.3, 35.9, 35.7, 35.4, 35.3, 36.0, 35.5, 36.1,
