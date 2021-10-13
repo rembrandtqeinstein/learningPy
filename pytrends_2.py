@@ -74,7 +74,7 @@ print(keywords)
 pytrend.build_payload(
      kw_list=keywords,
      cat=0,
-     timeframe='today 12-',
+     timeframe='today 12-m',
      geo='',
      gprop='')
 data = pytrend.interest_over_time()
